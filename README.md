@@ -1,4 +1,6 @@
 # UX-UI
+Jonathon Dutt, Isaiah Young
+
 Assignment GitHub: 
 https://github.com/gbc-idd-w20/project-ux-components
 
