@@ -101,11 +101,12 @@ a:hover{
     text-align: center;
     position: relative;
     width: 100%;
+    top: 0;
 }
 .header h1{
     color: var(--primary-a);
     font: bold normal 1.5em var(--font-b) , sans-serif;
-    margin: 2em 0 0 0;
+    padding:  2em 0 0 0;
 }
 .menu {
     color: var(--primary-a);
@@ -124,13 +125,6 @@ a:hover{
 .menu li{
     margin: 0.75em 0 0.75em 0;
     color: var(--primary-a);
-}
-.logo {
-    max-width: 1%;
-}
-.icon {
-    display: inline-block;
-    max-width: 40%;
 }
 .title p{
     font-size: 0.9em
@@ -182,8 +176,6 @@ a:hover{
     }
   main>div{
     max-width: 850px;
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr; */
     }
     .video-frame {
       width: 720px;
@@ -193,8 +185,6 @@ a:hover{
 @media screen and (min-width: 1100px) {
   main>div{
        max-width: 1300px;
-      /* display:grid;
-      grid-template-columns: 1fr 1fr 1fr 1fr; */
     }
   .menu button {
       display: none;
