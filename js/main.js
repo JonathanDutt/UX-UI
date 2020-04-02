@@ -9,7 +9,7 @@ let setFirstSlide = () => {
 	// let $slide = $show.firstElementChild
 	// let $slide = document.querySelectorAll('.slide')[0]
 
-	$slide.classList.add('current')
+	$slide.classList.add('current');
 
 }
 
