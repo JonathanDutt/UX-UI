@@ -2,8 +2,7 @@
 @import url(‘https://fonts.googleapis.com/css?family=Maven+Pro|Roboto:700i&display=swap’);
 @import url(http://getwallpapers.com/wallpaper/full/2/e/a/176785.jpg);
 html{
-  background: url(../img/bg.jpg) no-repeat center center fixed;
-  background-size: cover;
+  scroll-behavior: smooth;
 /** Font Sets **/
     --font-a: ‘Maven Pro’, sans-serif;
     --font-b: ‘Roboto’, sans-serif;
@@ -30,8 +29,18 @@ body {
     color: var(--primary-b);
     font-size: 1rem;
     font-family: ‘Maven Pro’, sans-serif;
+    background: lightsalmon;
+    transition: 0.3s all;
 }
-
+.changeColor {
+  background: lightseagreen;
+}
+.changeColorAgain {
+  background: lightyellow;
+}
+.changeColorAagain {
+  background: lightskyblue;
+}
 .title {
     color: var(--primary-b);
     font-family: var(--font-b), sans-serif;
@@ -141,8 +150,8 @@ a{
   position: relative;
 	display: flex;
 	justify-content: center;
-  width: 20em;
-	margin: auto;
+  /* width: 20em;
+	margin: auto; */
 }
 .slide {
   width: 20em;
@@ -163,9 +172,9 @@ a{
 
 .controls {
 	position: absolute;
-	/* top: 450;
-	left: 450; */
-	width: 80%;
+  left: 0;
+  right: 0;
+	width: 100%;
 }
 .btn {
 	width: 2em;
@@ -244,7 +253,7 @@ a{
       height: 520px;
     }
 }
-@media screen and (min-width: 1100px) {
+@media screen and (min-width: 1150px) {
   main>div{
        max-width: 1300px;
     }

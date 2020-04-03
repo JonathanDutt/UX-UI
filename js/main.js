@@ -1,3 +1,5 @@
+
+
 let theStateOfTheInterface = (event) => { 
   
 	let winH = document.documentElement.clientHeight
@@ -23,7 +25,7 @@ seenThese = 'class="seen"'
 }
 
 
-allSections += `<li ${seenThese}><a href="$">${ $sec.querySelector('h1').textContent }</a></li>`
+allSections += `<li ${seenThese}><a href="#${$sec.querySelector('h1').textContent}">${ $sec.querySelector('h1').textContent }</a></li>`
 })
 
 
